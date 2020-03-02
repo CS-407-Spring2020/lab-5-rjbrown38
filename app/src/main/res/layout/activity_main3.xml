@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Main3Activity">
 
     <EditText
         android:id="@+id/mytextfield"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="407dp"
         android:ems="10"
-        android:hint="UserName"
+        android:hint="Add Note"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,17 +20,14 @@
         app:layout_constraintVertical_bias="0.371" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="98dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="88dp"
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
         android:onClick="onButtonClick"
-        android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/mytextfield"
-        app:layout_constraintVertical_bias="0.217" />
+        app:layout_constraintTop_toBottomOf="@+id/mytextfield" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
